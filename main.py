@@ -9,7 +9,9 @@ if __name__=="__main__":
 
 	models.create_tables_if_not_exist()
 	root=home.Tk()
-	root['bg']='black'
+	root['bg']='#e6fffb'
+	# root.attributes("-fullscreen", True) 
+	# root['fullscreen']= True # self.tk.attributes("-fullscreen", self.state)
 	root.resizable(0,0)
 	frmmenu=home.FormMenu(root)
 	root.mainloop()
